@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "sora";
+}
+
+/* header top */
+
+header{
+    width: 1440px;
+}
+header .header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 104px;
+}
+header .header-top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 1280px;
+    height: 56px;
+}
+header .header-top .container .logo{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+header .header-top .container .logo span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+}
+header .header-top .container nav{
+    display: flex;
+    gap: 32px;
+}
+header .header-top .container nav a{
+    color: black;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-decoration: none;
+}
+header .header-top .container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    width: 153px;
+    height: 56px;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+
+/* header bottom */
+
+header .header-bot{
+    height: 716px;
+    padding: 60px 80px;
+}
+header .header-bot .container{
+    width: 1280px;
+    height: 596px;
+    position: relative;
+}
+header .header-bot .container .content{
+    position: absolute;
+    left: 32px;
+    top: 110px;
+    width: 600px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 20px 0;
+}
+header .header-bot .container .content .content-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header .header-bot .container .content .content-heading .normal{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+}
+header .header-bot .container .content .content-heading .bold{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+}
+header .header-bot .container .content .content-heading .outlined{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+    color: white;
+}
+header .header-bot .container .content .content-dummytext{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    color: #71717A;
+}
+header .header-bot .container .banner{
+    position: absolute;
+    right: 32px;
+}
+header .header-bot .container .icon{
+    width: 320px;
+    height: 64px;
+    padding: 4px 0;
+    display: flex;
+    gap: 32px;
+    position: absolute;
+    left: 32px;
+    bottom: -24px;
+}
+header .header-bot .container .icon .item{
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px;
+    border: 2px solid black;
+}
+header .header-bot .container .icon .facebook{
+    background-color: black;
+    color: white;
+}
+
+/* main */
+
+/* skills */
+main{
+    width: 1440px;
+}
+
+main .skills{
+    height: 728px;
+    padding: 60px 80px;
+    background-color: beige;
+}
+main .skills .container{
+    background-color: aqua;
+    width: 1280px;
+    height: 608px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+main .skills .container .heading{
+    position: absolute;
+    width: 1216px;
+    top: 0;
+    height: 96px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+    font-weight: 400px;
+}
+main .skills .container .heading .bold{
+    font-weight: 800px;
+}
+main .skills .container .container-icon{
+    margin-top: 136px;
+    width: 1216px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main .skills .container .container-icon .icon{
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 24px;
+    width: 186px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+main .skills .container .container-icon .black{
+    background-color: black;
+    color: white;
+}
+
+/* experience */
+
+main .experience{
+    height: 956px;
+    background-color: black;
+    padding: 60px 80px;
+}
+main .experience .container{
+    width: 1280px;
+    height: 836px;
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .experience .container .heading{
+    width: 1216;
+    height: 96;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+main .experience .container .heading span{
+    color: white;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.48px;
+}
+main .experience .container .heading .bold{
+    font-weight: 800;
+}
+main .experience .container .content{
+    width: 1216px;
+    height: 720px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+main .experience .container .content .card .card-title{
+    color: white;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 1280px;
+    height: 56px;
+}
+footer .container .logo{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+footer .container .logo span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+}
